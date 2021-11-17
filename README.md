@@ -10,11 +10,21 @@ Set of loading animations made in Js
 ![](gifs/ezgif.com-gif-maker(9).gif)
 
 - Square animation: Sort of like the Microsoft logo but not really
+
 ![](gifs/ezgif.com-gif-maker(10).gif)
 
-- Fading dots animation: A generic fading dots animation.
+- Experimental animation made while making windows animation. Kind of looks cool because the dots eventually merge
+
 ![](gifs/ezgif.com-gif-maker(11).gif)
 
-- Fading dots animation: A generic fading dots animation.
+- Sequential ball drop animation (long)
+
 ![](gifs/ezgif.com-gif-maker(12).gif)
+
+- Sequential ball drop animation (short)
+
 ![](gifs/ezgif.com-gif-maker(13).gif)
+
+- Sequential ball jump animation
+- 
+![](gifs/ezgif.com-gif-maker(14).gif)
