@@ -26,5 +26,5 @@ Set of loading animations made in Js
 ![](gifs/ezgif.com-gif-maker(13).gif)
 
 - Sequential ball jump animation
-- 
+
 ![](gifs/ezgif.com-gif-maker(14).gif)
