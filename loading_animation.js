@@ -90,13 +90,14 @@ function draw() {
     bouncecount += 10;
     ballbouncer += 7;
     ball2 += 10;
+    strokeWeight(8);
     
     let i = 0;
     while (i < 21){
       let h = 400-Math.abs((i*50)-ballbouncer);
       if (h < 325){
-        fill(h/2);
-        stroke(h/2);
+        fill(255);
+        stroke(255);
         h = 325;
       } else {
         fill(100+(4*(h-350)),100+(2*(h-350)),100+(1*(h-350)));
@@ -108,18 +109,20 @@ function draw() {
     
     i = 0;
     while (i < 3){
-      let h = 200-Math.abs((i*100)-ball2)+200;
-      if (h < 300){
+      let h = 400-Math.abs((i*50)-ball2)-200;
+      print(h);
+      if (h < 325-200){
         fill(255);
         stroke(255);
-        h = 125;
+        h = 325-200;
       } else {
-        fill(100+(4*(h-150)),100+(2*(h-150)),100+(1*(h-150)));
-        stroke(100+(4*(h-150)),100+(2*(h-150)),100+(1*(h-150)));
+        fill(255);
+        stroke(255);
       }
-      
-      h = 600 - h;
       ellipse(i*50+100,h,10,10);
+      
+      h = 300 - h;
+      ellipse(i*50+600,h,10,10);
       i += 1;
     }
    
